@@ -1,0 +1,26 @@
+{
+  "name": "AntiYoukuAD",
+  "version": "0.4",
+  "description": "屏蔽优酷土豆、奇异、搜狐、56、腾讯、PPLive、PPS视频广告",
+  "permissions": ["webRequest", "webRequestBlocking",
+                  "*://*.youku.com/*",
+                  "*://*.qiyi.com/*",
+                  "*://*.sohu.com/*",
+                  "*://*.pplive.cn/*",
+                  "*://*.pps.tv/*",
+                  //"*://*.ku6.com/*",
+                  //"*://*.ku6.cn/*",
+                  //"*://*.sdo.com/*",
+                  //"*://*.irs01.com/*",
+                  //"*://*.irs01.net/*",
+                  //"*://*.qidian.com/*",
+                  //"*://*.staticsdo.com/*",
+                  //"*://*.snyu.com/*",
+                  "*://*.qq.com/*",
+                  "*://*.56.com/*"
+                  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}
